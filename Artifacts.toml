@@ -1,0 +1,402 @@
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "ffb47c5fc31fbe0a0e109c0e952c06d773ce296c"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[LaMEM.download]]
+    sha256 = "50092119d0ec375abd5ab329b55dd08d7e4abf5d22262e269d7c7ef29b508a4a"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-apple-darwin-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "a54ac853e036858a30b7219b5607aace15b94989"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "438815de615bb61ad01b80c9c5093fa1341d2b6672b1a4188246105cac206ba9"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-gnu-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "8d3c9cae0a688e959331f0c1b4975a40f8bebd0c"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "a96aac498784fbc421768111971de9fd9058296fabde9636d8a51d3cc94d2d95"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-gnu-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "d1a0ee68a5137b3c0bde334bd53ac81780c5d32b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "17dfa550864dc64d586959e72c8f8641688fd4d26633370dee208fbd76f147ef"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-gnu-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "1ab42d0ab10e394570abee2d306906f9ed5e8510"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "1858507682d1423d17ad34c1602711367f8f835ce5bdd0714a899cdee728d137"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-musl-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "287753e6d1ceb0b0f8a77d9bd4ee8388593480e0"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "bbc6c6d0ad733b76a63d6d019d782db2969c53c11ed60b7c76a01c03e5201ac1"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-musl-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "aarch64"
+git-tree-sha1 = "f1989187f326da06a8cb3fb0cdcffb46efe916f1"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "5e2be87c6aa3d14fc02f4938d45aca483b7b2f0675162d82e3cd9ea4cba7135e"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.aarch64-linux-musl-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "019d34940cf8a6bdb1535e0320318f4e73851cd7"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "1c5245bec0d92a0fa4f7b812f95770636466109e6f806824d30f0b067f383e13"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d4439b33e1548f80cd156344611695847e557f5b"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "20853826b2f40543ed7e85627ffd75782dee41e40300a99198749c82f018790b"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d558f439d0b47e933d9b87c9f852249ef47859f1"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "a6a5eedb14663c21e8573340a599659f68fe73b7d02bbf4114db8fe8c6152415"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "0eb3764294c8bac145582de1dfdc93c922fbcef4"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "1264e04ae7f21c011e8188743af361dc7aecb3ba0cf88609ce31588cc3cecb91"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d7c0cf5871b2e00c269b7a0cd8c97185d2ef2be0"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "bb25108bf549538cbf0e2eb446fe9d88928d0f4c3c6d1b564278f84a7a9a9179"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "e48e9ff17fe58637480fb7c25732bb32b6576124"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "c8211496e433e5bd6b58f7f2a32a62c74354ea799f489ff2adb8e48eae62a7c7"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv6l-linux-musleabihf-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "4d8c41e826fc2b6de16222112000aaf637b633b2"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "507c4796b8481daf1a0eb5a961a6ed31757642baf9e2ba0a7e469968c84e0877"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "db45af210adea0d7b6737f860ada1e1c3185866e"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "9c5cada172d08650385cce78edc12746a56b589994d1eeeae24fd58c0bbdd050"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2730697ad7294e3785f07a7a9f40f5ec35d31327"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "493ee3ec47714cd3a8796abcece02105d674c470f004869f8a09a977ae847103"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "6631cacfca2f6c9f7023e6725d352a26578bb35b"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "918f479655665d3960075e246ad6d5e3f444ac218df2563817593fe31fc3a803"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "69e4f81effe6d370a113b793e0cacd2551ac4082"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "dd03c12406b11783504cc28c321eae5d93127a20f853a00d9698a9258d259e2d"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b5c4317d9d1c3707364475166d5dbb952f7a3632"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "a5f0572e503d254a8082e5f9b0029a286899d8d87f85abcf67a7b878b689beae"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "i686"
+git-tree-sha1 = "1c946744cc35f751451afbb740794da6fdb39cc8"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "2f81c586788969a478d173bde0755f3a1999400bbce66af0d2ee7bea72e7f4eb"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.i686-linux-gnu-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "i686"
+git-tree-sha1 = "16023b6940661faf46b5117fb4dd54e7a312fde6"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "dafe0988a9dca63fb59ef29cd8fc0be89b5d7882c5a6de3f237d82b6a0755901"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.i686-linux-gnu-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "i686"
+git-tree-sha1 = "d5fb0eb8574c632dfdfd657042c7ec9ab6a7525b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "3fbf80ce051d45207e0297ef03f53d008cd86ca49cfce984a3c39562bc1a8f1c"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.i686-linux-gnu-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "powerpc64le"
+git-tree-sha1 = "f945f8821822fa35d3408f6912d94f0f3f4dcf70"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "1b15d46838158bc928c8b0c60e5ea19ad8bfe1e4147625d393378d941dd0969f"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "powerpc64le"
+git-tree-sha1 = "dbfd6c15bcb10a343a2f65789dc57125a9b6b5e1"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "20e9e9490e6f4e5b416f2f7d38b0420f1141da2eac2cd7b5487cf6ab16096aeb"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "powerpc64le"
+git-tree-sha1 = "b9688a62c5cffdd40b340227557547097d0bbe91"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "5d8dbaebd9368081719620b776ff0e44814b0ab3ec6645bbb65b7e1c85df49d9"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.powerpc64le-linux-gnu-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "1101e13b2cd50f58eb122eb0176200e92f8ebb21"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[LaMEM.download]]
+    sha256 = "b78bdc342a67dc5f7cb9c65539dfa8f2092ff72e278aaa1e25be613270b32512"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "3bc339b1a3b70d14e9b78f2f0966ea5e45671ee6"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[LaMEM.download]]
+    sha256 = "a81ad3cbd2f6da41af1b6166825a2a127e068be93c3b1106cc9d4d391b1aefbb"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "88d4f601406f8b6b8260628c6a6f64752530c6af"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[LaMEM.download]]
+    sha256 = "d252624447badeb6a52b857ae362e2195ff781ba223279b9bc6b4a37d5f85360"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "5ef1720e763e61942186057b9147e92ed20561a7"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "d339b873966606e9d86f4d8b4ec19b2525e6e34871632728db9ed435c5648f8e"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "f2fb36e0c8ca76619283586652a67c2d9ed08832"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "c11a8ee06964cf57261f6a7667e1ee36b50ad92be9d0de38d19d5a51dfb7a15a"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "3a9061437e7e2c9155e3dcc50f505c18c7b42957"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "85c425ad293a51366a566cf7a4e7c41a7d4db1c9dc6ee2e8e5ae20a4cad87f7b"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "f2c129bc77eba337d8a636a0a15b5fc5f6d4a1a2"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "3d329aa1c3f0ac639b898ccd357e7f59a32f42735c8418edd3bc563f439eab4b"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-musl-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "9ad0548fcad8c2a0b86587c53b42e107b728a637"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "17fcc1bd6606766daf5020471c4549b69703dd5940072d866266705ac4a32551"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-musl-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "1a41a0ad47d3b67c26fd261bc9bb38627ca745d5"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[LaMEM.download]]
+    sha256 = "bbb47f6e11cbe3d04784c5c25d615d0e4da36be2c375eef4320726d63aac8676"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-linux-musl-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "5d7c21986f03f0877c2ad51ecddc33c7b5f16c51"
+libgfortran_version = "3.0.0"
+os = "freebsd"
+
+    [[LaMEM.download]]
+    sha256 = "614403270f23396e8e4ab949a135b2c9fcb5fb5e9aff2f3204075b010ebeac7d"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "278e8db297f84f786438cd6437fbbca0eca4a3cb"
+libgfortran_version = "4.0.0"
+os = "freebsd"
+
+    [[LaMEM.download]]
+    sha256 = "f846f9a466f9d539a88f2b486cdc245e8159c4e1198119b4a3172f226ee5e7af"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "a54a0f9bd6fd0289d56763c3cae72bcff0e8776b"
+libgfortran_version = "5.0.0"
+os = "freebsd"
+
+    [[LaMEM.download]]
+    sha256 = "b851dd4204cb27ce2366a18b2d8033fc7928f693f6ea073bc8652d6c8702a269"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "86f9ca93ea02490d1ca54da0c63aaff75a7d3edb"
+libgfortran_version = "3.0.0"
+os = "windows"
+
+    [[LaMEM.download]]
+    sha256 = "7e43556d9684527645079de17a6c06467845b13f71ed6b03647d59131614c9da"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-w64-mingw32-libgfortran3.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "09c49a3d4282a5acafc201c8b5ff22c34c30ead1"
+libgfortran_version = "4.0.0"
+os = "windows"
+
+    [[LaMEM.download]]
+    sha256 = "b5e783f2166fd9dd055ff62031e8139cab0c61acc44b350f26580aab2c5d64f3"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-w64-mingw32-libgfortran4.tar.gz"
+[[LaMEM]]
+arch = "x86_64"
+git-tree-sha1 = "37883eded5ebf615c21e66f1c95246f10ecfd702"
+libgfortran_version = "5.0.0"
+os = "windows"
+
+    [[LaMEM.download]]
+    sha256 = "4b644b932bc1cf20b9fd64a1a9cb717860e18966cffe63d5b7e5eafce5611c43"
+    url = "https://github.com/JuliaBinaryWrappers/LaMEM_jll.jl/releases/download/LaMEM-v1.1.0+0/LaMEM.v1.1.0.x86_64-w64-mingw32-libgfortran5.tar.gz"
