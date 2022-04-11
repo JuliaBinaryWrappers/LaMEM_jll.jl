@@ -1,6 +1,6 @@
 name = "LaMEM_jll"
 uuid = "15d6fa20-f789-5486-b71b-22b4ac8eb1c1"
-version = "1.1.0+1"
+version = "1.1.0+2"
 
 [deps]
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
