@@ -4,7 +4,6 @@ export LaMEM, LaMEMLib
 using PETSc_jll
 using CompilerSupportLibraries_jll
 using OpenMPI_jll
-using MPIPreferences
 JLLWrappers.@generate_wrapper_header("LaMEM")
 JLLWrappers.@declare_library_product(LaMEMLib, "@rpath/LaMEMLib.dylib")
 JLLWrappers.@declare_executable_product(LaMEM)
