@@ -7,19 +7,19 @@ using CompilerSupportLibraries_jll
 using SCALAPACK32_jll
 using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("LaMEM")
-JLLWrappers.@declare_library_product(LaMEMLib, "LaMEMLib.dll")
 JLLWrappers.@declare_executable_product(LaMEM)
+JLLWrappers.@declare_library_product(LaMEMLib, "LaMEMLib.dll")
 function __init__()
     JLLWrappers.@generate_init_header(PETSc_jll, Fastscapelib_jll, CompilerSupportLibraries_jll, SCALAPACK32_jll, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@init_executable_product(
+        LaMEM,
+        "bin\\LaMEM.exe",
+    )
+
     JLLWrappers.@init_library_product(
         LaMEMLib,
         "bin\\LaMEMLib.dll",
         nothing,
-    )
-
-    JLLWrappers.@init_executable_product(
-        LaMEM,
-        "bin\\LaMEM.exe",
     )
 
     JLLWrappers.@generate_init_footer()

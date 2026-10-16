@@ -7,19 +7,19 @@ using CompilerSupportLibraries_jll
 using mpif_jll
 using MPIABI_jll
 JLLWrappers.@generate_wrapper_header("LaMEM")
-JLLWrappers.@declare_library_product(LaMEMLib, "LaMEMLib.so")
 JLLWrappers.@declare_executable_product(LaMEM)
+JLLWrappers.@declare_library_product(LaMEMLib, "LaMEMLib.so")
 function __init__()
     JLLWrappers.@generate_init_header(PETSc_jll, Fastscapelib_jll, CompilerSupportLibraries_jll, mpif_jll, MPIABI_jll, MPIPreferences)
+    JLLWrappers.@init_executable_product(
+        LaMEM,
+        "bin/LaMEM",
+    )
+
     JLLWrappers.@init_library_product(
         LaMEMLib,
         "lib/LaMEMLib.so",
         nothing,
-    )
-
-    JLLWrappers.@init_executable_product(
-        LaMEM,
-        "bin/LaMEM",
     )
 
     JLLWrappers.@generate_init_footer()
